@@ -1,5 +1,10 @@
 # AtCoder with Kotlin
 
+```text
+kotlinc-jvm: 1.3.72 (JRE 11.0.7+10)
+ktlint: 0.39.0
+```
+
 ## setup
 
 A directory `ABC/ABC123` and files `A.kt`, ..., `F.kt` are created.
