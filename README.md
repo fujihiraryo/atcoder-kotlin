@@ -13,6 +13,7 @@ A directory `ABC/ABC123` and files `A.kt`, ..., `F.kt` are created.
 ./setup.sh ABC/ABC123
 cd ABC/ABC123
 ```
+
 ## make sample
 
 ```bash
