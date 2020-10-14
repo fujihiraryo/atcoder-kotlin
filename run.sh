@@ -1,3 +1,7 @@
 path=$1
-filename="${path%.*}"
-kotlinc-jvm $filename.kt -include-runtime -d $filename.jar && java -jar $filename.jar
+name="${path%.*}"
+if test -f "$name.jar"; then
+    java -jar $name.jar
+else
+    kotlinc-jvm $name.kt -include-runtime -d $name.jar && java -jar $name.jar
+fi
