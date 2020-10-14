@@ -1,6 +1,7 @@
 # AtCoder with Kotlin
 
 ```text
+macOS: Catalina10.15.6
 kotlinc-jvm: 1.3.72 (JRE 11.0.7+10)
 ktlint: 0.39.0
 ```
